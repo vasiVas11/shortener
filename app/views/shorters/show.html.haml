@@ -1,0 +1,19 @@
+%p#notice= notice
+
+%p
+  %b Url:
+  = @shorter.url
+
+%p
+  %b Identifier:
+  = @shorter.identifier
+
+
+%b
+  %b Description:
+  = @shorter.description
+
+%br
+
+= link_to 'Edit', edit_shorter_path(@shorter)
+= link_to 'Back', shorters_path

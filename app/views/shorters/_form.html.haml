@@ -1,0 +1,23 @@
+= form_for(@shorter, :remote => true, :html => {:'data-type' => 'json', :multipart => true})  do |f|
+  - if @shorter.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@shorter.errors.count, "error")
+        prohibited this shorter from being saved:
+      %ul
+        - @shorter.errors.full_messages.each do |msg|
+          %li= msg
+  .field
+    = f.label :url
+    %br/
+    = f.text_field :url, class: "form-control input-normal"
+  .actions
+    = f.submit
+
+#new_url
+  - if !@shorter.identifier.nil? && !@shorter.new_record?
+    = link_to root_url+@shorter.identifier, root_url+@shorter.identifier, target: '_blank'
+  - else
+    = link_to "", root_url, target: '_blank'
+
+

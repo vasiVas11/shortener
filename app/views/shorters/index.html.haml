@@ -1,0 +1,21 @@
+%h1 Listing shorters
+
+.col-13
+  .row-fluid
+    .span3 Url
+    .span4 Identifier
+    .span3 Description
+    .span2 Actions
+
+  - @shorters.each do |shorter|
+    .row-fluid
+      .span3= shorter.url
+      .span4= link_to shorter.identifier, short_link_path(:identifier => shorter.identifier), target: '_blank'
+      .span3= shorter.description
+      .span2
+        = link_to 'Show', shorter
+        = link_to 'Edit', edit_shorter_path(shorter)
+        = link_to 'Destroy', shorter, method: :delete, data: { confirm: 'Are you sure?' }
+%br
+
+= link_to 'New Shorter', new_shorter_path
