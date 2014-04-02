@@ -1,11 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  url: MyString
-  identifier: MyString
+  url: MyString5
+  identifier: MyString155
   description: MyText
 
 two:
   url: MyString
-  identifier: MyString
+  identifier: MyString2
   description: MyText

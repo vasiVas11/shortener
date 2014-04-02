@@ -13,6 +13,7 @@ gem "less-rails"
 gem 'twitter-bootstrap-rails'
 gem "haml-rails"
 gem 'will_paginate', '~> 2.3.16'
+gem "rspec-rails"
 
 
 # Gems used only for assets and not required
