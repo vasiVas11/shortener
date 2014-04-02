@@ -91,4 +91,8 @@ class ShortersController < ApplicationController
       redirect_to @shorter.url
     end
   end
+
+  def expire
+
+  end
 end
