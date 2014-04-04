@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redis.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="redis.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/redis.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="80" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="2" column="20" selection-start="141" selection-end="141" vertical-scroll-proportion="0.03131524" vertical-offset="0" max-vertical-offset="958">
               <folding />
             </state>
           </provider>
@@ -77,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resque.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="resque.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/resque.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="129" selection-end="129" vertical-scroll-proportion="0.03131524" vertical-offset="0" max-vertical-offset="958">
+            <state line="1" column="81" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
               <folding />
             </state>
           </provider>
@@ -923,16 +923,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/redis.rb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/resque.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="80" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+        <state line="1" column="81" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/resque.rb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/redis.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="129" selection-end="129" vertical-scroll-proportion="0.03131524" vertical-offset="0" max-vertical-offset="958">
+        <state line="2" column="20" selection-start="141" selection-end="141" vertical-scroll-proportion="0.03131524" vertical-offset="0" max-vertical-offset="958">
           <folding />
         </state>
       </provider>
