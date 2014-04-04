@@ -2,7 +2,7 @@ Shortener::Application.routes.draw do
 
   root to: 'shorters#new'
 
-  resources :shorters
+  resources :shortersshorters
 
   match "/:identifier" => "shorters#redirect", as: "short_link"
 
