@@ -16,6 +16,9 @@ gem "haml-rails"
 gem "rspec-rails"
 gem 'resque', require: 'resque/server'
 gem 'resque-scheduler'
+gem "devise"
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 
 

@@ -12,6 +12,6 @@ class ExpireJob
   end
 
   def self.update
-    shorters = Shorter.where(["created_at < ?", Time.now - 2.days]).update_all(:status => '1')
+    shorters = Shorter.where(["created_at < ?", Time.now - 2.days], ["user_id =", nil], ["status =", 0]).update_all(:status => '1')
   end
 end

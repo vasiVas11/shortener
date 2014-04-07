@@ -1,4 +1,7 @@
 class ShortersController < ApplicationController
+
+  #before_action :authenticate_user!
+
   # GET /shorters
   # GET /shorters.json
   def index
@@ -45,6 +48,10 @@ class ShortersController < ApplicationController
     unique_url = (Digest::MD5.hexdigest "#{SecureRandom.hex(2)}-#{DateTime.now.to_s}")
 
     @shorter.identifier = unique_url
+
+    if user_signed_in?
+      @shorter.user_id = current_user.id
+    end
 
     respond_to do |format|
       if @shorter.save

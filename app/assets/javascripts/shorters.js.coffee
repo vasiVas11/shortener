@@ -36,6 +36,7 @@ $ ->
 
     return false
 
+  return false
 
 
 capitaliseFirstLetter = (string) ->

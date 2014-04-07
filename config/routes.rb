@@ -1,10 +1,12 @@
 Shortener::Application.routes.draw do
 
+  devise_for :user, :path => '', :path_names => { :sign_in => "login", :sign_out => "logout", :sign_up => "register" }, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
+
   root to: 'shorters#new'
 
   resources :shorters
 
-  match "/:identifier" => "shorters#redirect", as: "short_link"
+  match ":identifier" => "shorters#redirect", as: "short_link"
 
 
 
