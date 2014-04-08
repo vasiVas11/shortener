@@ -31,7 +31,10 @@ class User < ActiveRecord::Base
   end
 
   def admin?
-    self.role_id == Role.get_admin_id
+    if self != nil?
+      return self.role_id == Role.get_admin_id
+    end
+    return false
   end
 
 end

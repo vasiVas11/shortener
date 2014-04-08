@@ -7,6 +7,9 @@ class Role < ActiveRecord::Base
 
   def self.get_admin_id
     role = self.find_by_name 'admin'
-    return role.id
+    if role
+      return role.id
+    end
+    return -1
   end
 end
