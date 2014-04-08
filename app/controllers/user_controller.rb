@@ -7,7 +7,7 @@ class UserController < ApplicationController
   end
 
   def index
-    @shorters = current_user.shorters
+    @shorters = current_user.shorters.paginate(:page => params[:page], :per_page => 10)
 
   end
 end

@@ -26,7 +26,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="17" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+            <state line="22" column="12" selection-start="430" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,16 @@
       <file leaf-file-name="shorters_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/shorters_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="0" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.0" vertical-offset="821" max-vertical-offset="1755">
+            <state line="6" column="41" selection-start="145" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1755">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -59,28 +68,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shorters.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/shorters.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="31" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="role.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/role.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="11" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/shorters/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="33" selection-start="387" selection-end="387" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="405">
+            <state line="20" column="2" selection-start="583" selection-end="608" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/user_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="87" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <file leaf-file-name="shorter.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/shorter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="16" selection-start="1176" selection-end="1176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+            <state line="9" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -107,7 +107,7 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/user/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="33" selection-start="387" selection-end="387" vertical-scroll-proportion="0.24725275" vertical-offset="0" max-vertical-offset="910">
+            <state line="21" column="27" selection-start="609" selection-end="609" vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="910">
               <folding />
             </state>
           </provider>
@@ -141,7 +141,6 @@
         <option value="$PROJECT_DIR$/app/jobs/expirejob.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/resque.rb" />
         <option value="$PROJECT_DIR$/lib/tasks/resque.rake" />
-        <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/config/initializers/redis.rb" />
         <option value="$PROJECT_DIR$/config/initializers/resque.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
@@ -149,7 +148,6 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/destroy.html.erb" />
         <option value="$PROJECT_DIR$/config/resque_schedule.yml" />
-        <option value="$PROJECT_DIR$/app/models/shorter.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140407121223_add_user_id.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.yaml" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
@@ -163,16 +161,18 @@
         <option value="$PROJECT_DIR$/app/views/user/my_links.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140408071323_add_user_role_id.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/user_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/shorters.js.coffee" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/role.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
-        <option value="$PROJECT_DIR$/app/controllers/shorters_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/ability.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/shorter.rb" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/views/shorters/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/controllers/shorters_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/user_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/user/index.html.haml" />
       </list>
     </option>
@@ -301,20 +301,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shortener" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shortener" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -366,6 +352,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shortener" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shortener" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -834,11 +834,6 @@
         <state line="27" column="24" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="82" selection-end="82" vertical-scroll-proportion="0.03131524" vertical-offset="0" max-vertical-offset="958" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="958" />
@@ -965,13 +960,6 @@
         <state line="18" column="11" selection-start="465" selection-end="465" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="405" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/shorter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="61" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="58" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1170">
@@ -996,13 +984,6 @@
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p429/gems/cancan-1.6.10/lib/cancan/ability.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="23" selection-start="1792" selection-end="1792" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="4755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/user_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="48" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
@@ -1042,23 +1023,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="36" selection-start="2712" selection-end="2712" vertical-scroll-proportion="-28.75" vertical-offset="210" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/shorters_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="2569" selection-end="2569" vertical-scroll-proportion="0.0" vertical-offset="821" max-vertical-offset="1755">
           <folding />
         </state>
       </provider>
@@ -1077,16 +1044,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/shorter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="12" selection-start="430" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/user_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="87" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/shorters_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="41" selection-start="145" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1755">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shorters/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="387" selection-end="387" vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="405">
+        <state line="20" column="2" selection-start="583" selection-end="608" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/user/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="387" selection-end="387" vertical-scroll-proportion="0.24725275" vertical-offset="0" max-vertical-offset="910">
+        <state line="21" column="27" selection-start="609" selection-end="609" vertical-scroll-proportion="0.34615386" vertical-offset="0" max-vertical-offset="910">
           <folding />
         </state>
       </provider>
