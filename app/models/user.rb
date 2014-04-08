@@ -8,6 +8,7 @@ class User < ActiveRecord::Base
   attr_accessible :email, :password, :password_confirmation, :remember_me, :provider, :uid
   # attr_accessible :title, :body
 
+  belongs_to :role
   has_many :shorters
   devise :omniauthable
 
@@ -27,6 +28,10 @@ class User < ActiveRecord::Base
                            password:Devise.friendly_token[0,20],
         )
       end    end
+  end
+
+  def admin?
+    self.role_id == Role.get_admin_id
   end
 
 end

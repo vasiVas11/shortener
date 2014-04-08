@@ -35,12 +35,13 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a{class: "brand", href: "#" } Shortener
+          %a{class: "brand", href: root_path } Shortener
           .container-fluid.nav-collapse
             %ul.nav
-              %li= link_to "Link1", "/path1"
-              %li= link_to "Link2", "/path2"
-              %li= link_to "Link3", "/path3"
+              %li= link_to "All links", shorters_path
+              - if user_signed_in?
+                %li= link_to "My links", my_links_path
+
             %ul.nav.pull-right
               - if user_signed_in?
                 %li= link_to "Logout", destroy_user_session_path, :method => :delete

@@ -1,6 +1,6 @@
 class ShortersController < ApplicationController
 
-  #before_action :authenticate_user!
+  #before_filter :authenticate_user!
 
   # GET /shorters
   # GET /shorters.json
@@ -67,7 +67,10 @@ class ShortersController < ApplicationController
   # PUT /shorters/1
   # PUT /shorters/1.json
   def update
+
     @shorter = Shorter.find(params[:id])
+
+    authorize! :update, @shorter
 
     respond_to do |format|
       if @shorter.update_attributes(params[:shorter])
@@ -75,7 +78,7 @@ class ShortersController < ApplicationController
         format.json { render :json => {message: "Updated successfully", url: short_link_url(@shorter.identifier) } }
       else
         format.html { render action: "edit" }
-        format.json { render json: @shorter.errors, status: :unprocessable_entity }
+        format.json { render :json => {message: "Updated failed", url: short_link_url(@shorter.identifier) } }
       end
     end
   end
@@ -84,6 +87,9 @@ class ShortersController < ApplicationController
   # DELETE /shorters/1.json
   def destroy
     @shorter = Shorter.find(params[:id])
+
+    authorize! :destroy, @shorter
+
     @shorter.destroy
 
     respond_to do |format|

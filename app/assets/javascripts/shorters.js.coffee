@@ -11,7 +11,7 @@ $ ->
       data: dataSet
       dataType: 'html'
       error: (jqXHR, textStatus, errorThrown) ->
-        $('body').append "AJAX Error: #{textStatus}"
+        alert("Error encounted!")
       success: (data, textStatus, jqXHR) ->
         data = JSON.parse(data)
         alert(data.message)

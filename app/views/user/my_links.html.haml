@@ -13,10 +13,9 @@
       .span4= link_to shorter.identifier, short_link_path(:identifier => shorter.identifier), target: '_blank'
       .span3= shorter.description
       .span2
-        - if can? :manage_owners, shorter
-          = link_to 'Show', shorter
-          = link_to 'Edit', edit_shorter_path(shorter)
-          = link_to 'Destroy', shorter, method: :delete, data: { confirm: 'Are you sure?' }
+        = link_to 'Show', shorter
+        = link_to 'Edit', edit_shorter_path(shorter)
+        = link_to 'Destroy', shorter, method: :delete, data: { confirm: 'Are you sure?' }
 %br
 
 = link_to 'New Shorter', new_shorter_path

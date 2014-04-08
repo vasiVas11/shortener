@@ -6,6 +6,9 @@ Shortener::Application.routes.draw do
 
   resources :shorters
 
+  get '/user/my_links', to: 'user#my_links', as: "my_links"
+  get '/user', to: 'user#index'
+
   match ":identifier" => "shorters#redirect", as: "short_link"
 
 
