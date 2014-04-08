@@ -1,11 +1,10 @@
 class ShortersController < ApplicationController
 
-  #before_filter :authenticate_user!
 
   # GET /shorters
   # GET /shorters.json
   def index
-    @shorters = Shorter.all
+    @shorters = @q.result(distinct: true)
 
     respond_to do |format|
       format.html # index.html.haml
@@ -108,4 +107,5 @@ class ShortersController < ApplicationController
   def expire
 
   end
+
 end
