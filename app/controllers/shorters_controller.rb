@@ -54,6 +54,9 @@ class ShortersController < ApplicationController
 
     respond_to do |format|
       if @shorter.save
+        if !user_signed_in?
+          (session[:urls_shorted] ||= []) << @shorter.id
+        end
         format.html { redirect_to @shorter, notice: 'Shorter was successfully created.' }
         format.json { render :json => {message: "Created successfully", url: short_link_url(@shorter.identifier) } }
       else
